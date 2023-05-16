@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>Arthur Victory - Aspiring Web Developer</title>
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="smiley.ico">
+  <link rel="icon" href="donut.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
@@ -21,9 +21,9 @@
   </div>
   <div class="middle-container">
     <div class="profile">
-      <img class="profile-pic" src="https://arthurvictory.github.io/cv/images/arthur.png" alt="arthur-image">
+      <img class="profile-pic" src="images/arthur.png" alt="arthur-image">
       <h2>Hello.</h2>
-      <p class="intro">I am an aspiring web developer and a dog lover. Also I LOVE Donuts!</p>
+      <p class="intro">I am an aspiring software developer and a dog lover. Also I LOVE Donuts!</p>
     </div>
     <hr>
     <div class="skills">
@@ -42,16 +42,26 @@
     <hr>
     <div class="contact-me">
       <h2>How to get in touch</h2>
-      <h3>I am a new and learning web developer.</h3>
+      <h3>I am a new and aspiring software developer.</h3>
       <p class="contact-message">If you are interested in contacting me and making you a website, reach me here</p>
-      <a class="btn" href="mailto:arthurvictory@outlook.com">CONTACT ME</a>
+      <form action="mailto:arthurvictory@outlook.com" method="POST">
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" id="name" placeholder="Your Name">
+        <br>
+        <label for="body">Message:</label>
+        <br>
+        <textarea id="body" placeholder="Your Message" rows="5"></textarea>
+        <br>
+        <input type="submit" name="send" value="Send">
+      </form>
     </div>
   </div>
 
   <div class="bottom-container">
     <a class="footer-link" href="https://www.linkedin.com/in/arthur-victory" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     <a class="footer-link" href="https://twitter.com/poppa_seth" target="_blank" rel="noopener noreferrer">Twitter</a>
-    <a class="footer-link" href="http://arthurvictoryweb.infinityfreeapp.com/" target="_blank" rel="noopener noreferrer">Website</a>
+    <a class="footer-link" href="https://arthurvictory.github.io/portfolio/" target="_blank" rel="noopener noreferrer">Website</a>
     <p class="copyright">© Arthur Victory.</p>
   </div>
 </body>
